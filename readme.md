@@ -38,3 +38,14 @@ two columns (is_clicked, is_installed) are not present
 Submission Format:
 The format for the submission file should contain three tab separated columns representing RowId corresponding to the
 lines in the test data and the corresponding prediction for is_clicked, is_installed.
+
+if you develop local repository first to push changes to remote.
+git init
+git add .
+git commit -m "comment"
+create a repository on github
+repo : https://github.com/thevedprakash/SharechatAds-Recsys.git
+git remote add origin https://github.com/thevedprakash/SharechatAds-Recsys.git
+
+branch : main
+git push -u origin branch
